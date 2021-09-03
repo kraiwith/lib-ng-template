@@ -1,0 +1,18 @@
+{
+  "name": "shared",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^12.2.0",
+    "@angular/core": "^12.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "main": "bundles/shared.umd.js",
+  "module": "fesm2015/shared.js",
+  "es2015": "fesm2015/shared.js",
+  "esm2015": "esm2015/shared.js",
+  "fesm2015": "fesm2015/shared.js",
+  "typings": "shared.d.ts",
+  "sideEffects": false
+}
