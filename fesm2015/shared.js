@@ -74,7 +74,9 @@ class SharedModule {
 SharedModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.4", ngImport: i0, type: SharedModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
 SharedModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "12.2.4", ngImport: i0, type: SharedModule, declarations: [SharedComponent,
         PrimaryComponent,
-        SecondaryComponent], exports: [SharedComponent] });
+        SecondaryComponent], exports: [SharedComponent,
+        PrimaryComponent,
+        SecondaryComponent] });
 SharedModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "12.2.4", ngImport: i0, type: SharedModule, imports: [[]] });
 i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.4", ngImport: i0, type: SharedModule, decorators: [{
             type: NgModule,
@@ -82,11 +84,13 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.4", ngImpor
                     declarations: [
                         SharedComponent,
                         PrimaryComponent,
-                        SecondaryComponent
+                        SecondaryComponent,
                     ],
                     imports: [],
                     exports: [
                         SharedComponent,
+                        PrimaryComponent,
+                        SecondaryComponent,
                     ]
                 }]
         }] });
